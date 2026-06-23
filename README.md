@@ -32,4 +32,4 @@ bash <(curl -s  https://raw.githubusercontent.com/DooOffc-Dev/Pterodactyl-Theme-
 _\* di atas adalah os yang saya test, selebihnya bisa di test sendiri._
 
 ## Credits 
-- Created By [ MalzXyz ](https://github.com/akmalxyzz)
+- Created By [ @DooOfficiall ](https://github.com/DooOffc-Dev/) 
