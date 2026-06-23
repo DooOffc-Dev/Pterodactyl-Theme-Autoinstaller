@@ -112,7 +112,7 @@ install_theme() {
       ;;
   esac
 
-  THEME_URL="https://github.com/akmalxyzz/Pterodactyl-Theme-Autoinstaller/raw/main/${THEME_NAME}.zip"
+  THEME_URL="https://github.com/DooOffc-Dev/Pterodactyl-Theme-Autoinstaller/tree/main${THEME_NAME}.zip"
 
   echo -e "${YELLOW}Mengunduh theme $THEME_NAME...${NC}"
   wget -q -O "/root/${THEME_NAME}.zip" "$THEME_URL"
@@ -169,7 +169,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/akmalxyzz/Pterodactyl-Theme-Autoinstaller/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/DooOffc-Dev/Pterodactyl-Theme-Autoinstaller/refs/heads/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -188,7 +188,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/stellar.zip https://github.com/akmalxyzz/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
+wget -O /root/stellar.zip https://github.com/DooOffc-Dev/Pterodactyl-Theme-Autoinstaller/blob/main/stellar.zip
 
 
 # Ekstrak file tema
